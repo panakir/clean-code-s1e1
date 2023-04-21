@@ -16,19 +16,25 @@
   width: 100%;
 }
 
-.more-information {
+.header__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-.header {
-  text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -74,8 +80,7 @@
 }
 
 /* Heading */
-.tasks__title,
-.add-task__label {
+.tasks__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,12 +108,14 @@
 }
 
 /* New Task */
-.add-task__label {
+.add-task
+.tasks__title {
   display: block;
   margin: 0 0 20px;
 }
 
 #new-task {
+  display: inline-block;
   width: 318px;
 }
 
